@@ -1,0 +1,50 @@
+.movie_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.movie_grid{
+    margin-top: 10px;
+}
+.movie_grid{
+    position: relative;
+    margin: 10px;
+    border: 1px solid rgb(207, 203, 203);
+    
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008bba75;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.movie_grid:hover .overlay{
+    width: 100%;
+    cursor: pointer;
+}
+.text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid white;
+    text-transform: capitalize;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .count p{
+      float: right;
+      color: white;
+      margin: 10px;
+      padding: 2px 5px;
+      background: black;
+  }

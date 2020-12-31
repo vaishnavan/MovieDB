@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 50px;
+    background:black;
+    padding: 10px;
+}
+.footer_back h2{
+    color: gray;
+}
+.footer_back ul li{
+    list-style-type: none;
+    color: gray;
+    font-size: 18px;
+    margin: 10px;
+}

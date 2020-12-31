@@ -1,0 +1,43 @@
+body{
+    background: rgb(2, 2, 49);
+}
+.ind{
+    display: flex;
+    overflow: auto;
+    border: 1px solid rgb(2, 2, 49);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+    padding: 10px;  
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.player_ind{
+    position: relative;
+    margin: 10px;
+    
+}
+.player_ind .lang_name{
+    text-align: center;
+    padding: 10px;
+    background: chocolate;
+    text-transform: capitalize;
+}
+
+.player_ind .rate{
+    text-align: center;
+    padding: 5px;
+    background: rgb(43, 128, 22);
+    text-transform: capitalize;
+}
+.moviedisplay h3{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    text-transform: capitalize;
+}
+.all_movie a{
+    
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
